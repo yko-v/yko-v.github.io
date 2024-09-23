@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>CubeSats</title>
+</head>
+
+<header>
+    <div> 
+        <h1 style="font-family:'Courier New'; font-size:xxx-large; letter-spacing:10px; font-weight:normal; text-align: center">
+            <p><a href="../../index.html"><b>Протос</b></p>  </a>
+        </h1>
+    </div>
+
+<div>
+    <nav class="hz-bar menu_bordo">
+        <ul class="hz_menu">
+        
+        <li class="parent_dropdown"><a href="../../Cubesat/AboutCS.html">Формат</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Cubesat/Family.html">Семейства CubeSat</a></li>
+            <li><a href="../../Cubesat/Program.html">Программы</a></li>
+            </ul>
+            </div>
+        </li>
+        
+        <li class="parent_dropdown"><a href="../../Dev/Dev.html">Разработка</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Dev/Platforms.html">Спутниковые платформы</a></li>
+            <li><a href="../../Dev/Service.html">Служебные системы</a></li>
+            <li><a href="../../Dev/Payload.html">Полезная нагрузка</a></li>
+            <li><a href="../../Dev/Elements.html">Элементная база</a></li>
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../../Test/Test.html">Испытания</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Test/Requirements.html">Требования</a></li>
+            <li><a href="../../Test/Pod.html">Стенды</a></li>
+
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../../Launch/Launch.html">Запуск</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Launch/L_Dates.html">Запуски</a></li>
+            <li><a href="../../Launch/Rocket.html">Ракеты-носители</a></li>
+            <li><a href="../../Launch/Port.html">Космодромы</a></li>
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../../Deployment/Deployment.html">Выведение</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Deployment/BSC.html">Базовые КА</a></li>
+            <li><a href="../../Deployment/Disp.html">Контейнеры</a></li>
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../../Func/Func.html">Полёт</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Func/Orbit.html">Орбиты</a></li>
+            <li><a href="../../Func/Mission.html">Миссии</a></li>
+            </ul>
+            </div>
+        </li> 
+        
+        <li class="parent_dropdown"><a href="../../Info/Info.html">Инфо</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../../Info/Links.html">Ссылки</a></li>
+            <li><a href="../../Info/About.html">О проекте</a></li>
+            <li><a href="../../Info/Add.html">Добавить информацию</a></li>
+            <li><a href="../../Info/Help.html">Поддержать проект</a></li>
+            </ul>
+            </div>
+        </li> 
+        
+        </ul>
+    </nav>
+</div>
+  
+<hr>
+</header>
+
+    
+<body>
+        <div style="text-align:center">
+            <h1>Семейство Cubesx-hse</h1>
+        </div>
+
+    <div><hr>
+    <h2 style="text-align:center">Описание</h2>
+    
+<div class="container" style="">
+<div></div>
+<div>The testing of all satellite control systems is carried out by students of MIEM on the basis of a previously created joint laboratory. The satellite will be equipped with a high-speed X-band transmitter. Education and training in areas such as designing, building, and operating small satellites and space systems(with RF ground segment). Including power subsystem, RF, ADCS, EO payload. Amateur satellite RF activities. Including the first LEO amateur DVB-S2(as far as the project team informed) on 10.450-10.500 GHz(should be interesting considering AMSAT Phase 4 direction and success). Amateur DVB-S2 on the LEO is pretty new. It’s possible to participate in scheduled by the mission team transmissions as well as request transmission in any part of the globe via satellite flight plan by contacting the mission team. Transmissions can be EO payload data, telemetry, test signals. Different DVB-S2 modes used: MPEG TS, TCP/IP GSE/MPE/ULE. Symbol rate and other parameters can be tuned for different dish sizes and conditions, both hardware DVB-S2 receivers and SDR can be used. Amateurs can participate in scheduling and receiving these transmissions, tweaking the DVB-S2 parameters, and help with receiving more data from sats. The mission team will help with interpreting and analyzing the received data. Digipeater or similar functionality is technically possible to implement via firmware upgrade in-orbit, but only after the launch(software people didn’t have enough time before launch, unfortunately). Proposing downlinks as detailed: 435-438 MHz: TM/TC GMSK 9600 baud default, 20 kHz requested for future and experimental usage. Packet mode mostly compatible with CCSDS 131.0-B(TM SYNCHRONIZATION AND CHANNEL CODING) with some useful for smallsats amends to ASM. AX25 packet structure with amateur callsigns inside Transfer Frames. AX25 G3RUH operation also supported but disabled in favor of more FEC. 10.450-10.500 GHz: QPSK/8PSK/16APSK/32APSK roll-off 1.35 DVB-S2 1 Msym/s default, 10 MHz requested for future and experimental usage. Both MPEG TS and TCP/IP through GSE/MPE/ULE supported.</div>
+<div></div>
+</div>
+<br>
+<div class="container" style="">
+<div></div>
+<div><table border="1" class="sortable">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Назначение</th>
+      <th>Разработчик</th>
+      <th>Страна</th>
+      <th>Всего КА</th>
+      <th>Успешных КА</th>
+      <th>Успешность (%)</th>
+      <th>Ссылка на space.skyrocket.de</th>
+      <th>Ссылка на nanosats.eu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Technology</td>
+      <td>SPUTNIX</td>
+      <td>Russia</td>
+      <td>4</td>
+      <td>4</td>
+      <td>100</td>
+      <td><a href="https://space.skyrocket.de/../doc_sdat/cubesx-sirius-hse.htm" style="font-size:large">CubeSX-HSE 3 (RS 42S)</a></td>
+      <td><a href="https://www.nanosats.eu/sat/cube-sx-hse-3.html" style="font-size:large">Cube-SX-HSE-3 (RS42S, Space-PI, Space π)</a></td>
+    </tr>
+  </tbody>
+</table></div>
+<div></div>
+</div>
+
+    </div>
+    
+<br>
+    <div><hr>
+    <h2 style="text-align:center">Состав и устройство</h2>
+    
+<div class="container4_tab" style="">
+<div></div>
+<div><table border="1" class="sortable">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Размерность</th>
+      <th>Масса</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3.0</td>
+      <td>3.4</td>
+    </tr>
+  </tbody>
+</table></div>
+<div><table border="1" class="sortable">
+  <thead>
+    <tr style="text-align: center;">
+      <th>PLATFORM</th>
+      <th>Sys_Power</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sputnix</td>
+      <td>Solar cells, batteries</td>
+    </tr>
+    <tr>
+      <td>Sputnix</td>
+      <td>Solar cells, batteries</td>
+    </tr>
+    <tr>
+      <td>Sputnix</td>
+      <td>Solar cells, batteries</td>
+    </tr>
+    <tr>
+      <td>Sputnix</td>
+      <td>Solar cells, batteries</td>
+    </tr>
+  </tbody>
+</table></div>
+<div></div>
+</div>
+
+    </div>
+    
+<br>
+    <div><hr>
+    <h2 style="text-align:center">Экземпляры</h2>
+    
+<div class="container_tab" style="">
+<div></div>
+<div><table border="1" class="sortable">
+  <thead>
+    <tr style="text-align: center;">
+      <th>Name</th>
+      <th>NORAD_ID</th>
+      <th>COSPAR_ID</th>
+      <th>Status_Orbit</th>
+      <th>L_Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cubesx-sirius-hse</td>
+      <td>47951.0</td>
+      <td>2021-022V</td>
+      <td>Orbit</td>
+      <td>2021-03-22</td>
+    </tr>
+    <tr>
+      <td>CubeSX-HSE (MIEM 3U, NRU HSE-DZZ)</td>
+      <td>47952.0</td>
+      <td>2021-022W</td>
+      <td>Orbit</td>
+      <td>2021-03-22</td>
+    </tr>
+    <tr>
+      <td>CubeSX-HSE 2 (RS 21S)</td>
+      <td>53383.0</td>
+      <td>2022-096P</td>
+      <td>Decay</td>
+      <td>2022-08-09</td>
+    </tr>
+    <tr>
+      <td>CubeSX-HSE 3 (RS 42S)</td>
+      <td>57178.0</td>
+      <td>2023-091N</td>
+      <td>Orbit</td>
+      <td>2023-06-27</td>
+    </tr>
+  </tbody>
+</table></div>
+<div></div>
+</div>
+
+    </div>
+    
+<br>
+    <div><hr>
+    <h2 style="text-align:center">Орбита</h2>
+    
+<div class="container_tab" style="">
+<div></div>
+<div><table border="1" class="sortable">
+  <thead>
+    <tr style="text-align: center;">
+      <th>H_0</th>
+      <th>Hp_0</th>
+      <th>Ha_0</th>
+      <th>sma_0</th>
+      <th>inc_0</th>
+      <th>ecs_0</th>
+      <th>Per_0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>557.014590</td>
+      <td>542.864813</td>
+      <td>571.164367</td>
+      <td>6928.014590</td>
+      <td>97.5630</td>
+      <td>0.002042</td>
+      <td>95.647398</td>
+    </tr>
+    <tr>
+      <td>556.877831</td>
+      <td>542.628572</td>
+      <td>571.127090</td>
+      <td>6927.877831</td>
+      <td>97.5640</td>
+      <td>0.002057</td>
+      <td>95.644566</td>
+    </tr>
+    <tr>
+      <td>497.553629</td>
+      <td>493.136462</td>
+      <td>501.970796</td>
+      <td>6868.553629</td>
+      <td>97.4384</td>
+      <td>0.000643</td>
+      <td>94.418677</td>
+    </tr>
+    <tr>
+      <td>564.131926</td>
+      <td>550.953095</td>
+      <td>577.310757</td>
+      <td>6935.131926</td>
+      <td>97.6677</td>
+      <td>0.001900</td>
+      <td>95.794828</td>
+    </tr>
+  </tbody>
+</table></div>
+<div></div>
+</div>
+
+    </div>
+    
+    </body>
+    </html>
+
+    <link rel="stylesheet" href="../../style.css">
+    <script src="../../addEventListener.js"></script>

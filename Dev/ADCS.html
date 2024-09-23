@@ -1,0 +1,619 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Протос.БД: Система ориентации и стабилизации</title>
+</head>
+
+<header>
+    <div> 
+        <h1 style="font-family:'Courier New'; font-size:xxx-large; letter-spacing:10px; font-weight:normal; text-align: center">
+            <p><a href="../index.html"><b>Протос</b></p>  </a>
+        </h1>
+    </div>
+
+<div>
+    <nav class="hz-bar menu_bordo">
+        <ul class="hz_menu">
+        
+        <li class="parent_dropdown"><a href="../Cubesat/AboutCS.html">Формат</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Cubesat/Family.html">Семейства CubeSat</a></li>
+            <li><a href="../Cubesat/Program.html">Программы</a></li>
+            </ul>
+            </div>
+        </li>
+        
+        <li class="parent_dropdown"><a href="../Dev/Dev.html">Разработка</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Dev/Payload.html">Спутниковые платформы</a></li>
+            <li><a href="../Dev/Service.html">Служебные системы</a></li>
+            <li><a href="../Dev/Payload.html">Полезная нагрузка</a></li>
+            <li><a href="../Dev/Elements.html">Элементная база</a></li>
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../Test/Test.html">Испытания</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Test/Requirements.html">Требования</a></li>
+            <li><a href="../Test/Pod.html">Стенды</a></li>
+
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../Launch/Launch.html">Запуск</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Launch/L_Dates.html">Запуски</a></li>
+            <li><a href="../Launch/Rocket.html">Ракеты-носители</a></li>
+            <li><a href="../Launch/Port.html">Космодромы</a></li>
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../Deployment/Deployment.html">Выведение</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Deployment/BSC.html">Базовые КА</a></li>
+            <li><a href="../Deployment/Disp.html">Контейнеры</a></li>
+            </ul>
+            </div>
+        </li>
+
+        <li class="parent_dropdown"><a href="../Func/Func.html">Полёт</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Func/Orbit.html">Орбиты</a></li>
+            <li><a href="../Func/Mission.html">Миссии</a></li>
+            </ul>
+            </div>
+        </li> 
+        
+        <li class="parent_dropdown"><a href="../Info/Info.html">Инфо</a>
+            <div class="dropdown_menu">
+            <ul>
+            <li><a href="../Info/Links.html">Ссылки</a></li>
+            <li><a href="../Info/About.html">О проекте</a></li>
+            <li><a href="../Info/Add.html">Добавить информацию</a></li>
+            <li><a href="../Info/Help.html">Поддержать проект</a></li>
+            </ul>
+            </div>
+        </li> 
+        
+        </ul>
+    </nav>
+</div>
+  
+<hr>
+</header>
+
+    
+<body>
+        <div style="text-align:center">
+            <h1>Система ориентации и стабилизации</h1>
+        </div>
+
+<div class="container_tab" style="">
+<div></div>
+<div><table border="1" class="sortable">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Семейство КА</th>
+      <th>GPS-модуль</th>
+      <th>Солнечный датчик</th>
+      <th>Звездный датчик</th>
+      <th>Маховик</th>
+      <th>Двигатель</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>ADLER 1 (Lemur-2 151, Lemur-2 Krywe)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>SteamJet</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>AMS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Enpulsion IFM Nano Thruster SE</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Arthur 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Exotrail</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Astrocast</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>GomSpace NanoProp MEMS Cold Gas</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Astrocast</td>
+      <td>u-blox Galileo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>AuroraSat</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Aurora Propulsion Technologies</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>BSS 1 (DFAST)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Benchmark Space Systems</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>BeaverCube</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Accion</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Beihangkongshi 1 (TY 20)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ThrustMe NPT30i</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>CAPSTONE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Stellar Exploration</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>D2/AtlaCom 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Accion</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Da Vinci</td>
+      <td></td>
+      <td>Solar MEMS NanoSSOC-D60</td>
+      <td></td>
+      <td>Clyde Space</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>EG</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Stellar Exploration</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>EQUULEUS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Pale Blue</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Elo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Exotrail</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Eye-Sat</td>
+      <td></td>
+      <td></td>
+      <td>Berlin Space Technologies (BST) ST200</td>
+      <td>Hyperion RW200</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Foresail 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Aurora Propulsion Technologies</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>GRBAlpha</td>
+      <td>Spacemanic</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Hiber</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Dawn Aerospace</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>HyTI</td>
+      <td>NovAtel</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Isispace</td>
+      <td></td>
+      <td></td>
+      <td>Solar MEMS, Arcsec</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Kepler-3U</td>
+      <td></td>
+      <td>Solar MEMS NanoSSOC-D60</td>
+      <td>Berlin Space Technologies (BST) ST200</td>
+      <td>Clyde Space</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Khors</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Advanced Propagation Systems</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>LORIS (DUCS)</td>
+      <td>NovAtel</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>LunaH-Map (SIMPLEx 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Busek BIT-3</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Lunar Flashlight</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Bradford ECAPS</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Lunar-IceCube</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Busek BIT-3</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>M6P (LacunaSat 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>NanoAvionics</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Marco</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>VACCO</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>NEA-Scout</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Blue Canyon RW</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Napa</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ThrustMe I2T5 Solid-Iodine Cold-gas</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Neptuno (NEPT 1)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Enpulsion IFM Nano Thruster</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Netsat</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Wittenstein cyber reaction wheel 2</td>
+      <td>Enpulsion IFM Nano Thruster</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>NslSat</td>
+      <td></td>
+      <td>Solar MEMS NanoSSOC-D60</td>
+      <td></td>
+      <td>Clyde Space</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>NuX 1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Aliena</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>ORB-12 Strider</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Aliena</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>ORCASat</td>
+      <td></td>
+      <td>Hyperion SS200</td>
+      <td></td>
+      <td>Sinclair RW-0.03</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>PICASSO</td>
+      <td></td>
+      <td>Solar MEMS NanoSSOC-D60</td>
+      <td>Berlin Space Technologies (BST) ST200</td>
+      <td>Clyde Space</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>PlantSat</td>
+      <td></td>
+      <td>GomSpace NanoSense FSS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Platform</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Hypernova</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Platform</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Magdrive, Hypernova</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Ptd</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Tethers Unlimited HYDROS-C</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Ptd</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Accion</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Rroci</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Benchmark Space Systems</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>SOAR</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Astrofein</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>SPOC</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Clyde Space</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>SeaHawk 1</td>
+      <td></td>
+      <td>Solar MEMS NanoSSOC-D60</td>
+      <td></td>
+      <td>Clyde Space</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>SpIRIT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Neumann Space</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Suchai</td>
+      <td></td>
+      <td>GomSpace NanoSense FSS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Suchai</td>
+      <td></td>
+      <td>GomSpace NanoSense FSS LoRaArkEdge Space</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Veery</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>AIS-gPPT3-1C Micro Pulsed Plasma Thruster</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>VzluSat</td>
+      <td>Spacemanic</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Xiaoxiang</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ThrustMe I2T5 Solid-Iodine Cold-gas</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>g-space-1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Enpulsion Nano AR3</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>m6p</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Exotrail ExoMG</td>
+    </tr>
+  </tbody>
+</table></div>
+<div></div>
+</div>
+    </body>
+    </html>
+
+    <link rel="stylesheet" href="../style.css">
+    <script src="../addEventListener.js"></script>
